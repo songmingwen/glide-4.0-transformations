@@ -12,7 +12,7 @@ An Android transformation library providing a variety of image transformations f
                 .into(viewHolder.image);
 #
 
-### Using SimplePlayer in your application
+### Using glide-4.0-transformations in your application
 
 	allprojects {
 		repositories {
