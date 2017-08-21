@@ -22,7 +22,7 @@ An Android transformation library providing a variety of image transformations f
 	}
   
   	dependencies {
-		compile 'com.github.songmingwen:glide-4.0-transformations:1.0'
+		compile 'com.github.songmingwen:glide-4.0-transformations:1.1'
 	}
   
 # 
