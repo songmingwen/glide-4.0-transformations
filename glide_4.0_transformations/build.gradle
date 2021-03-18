@@ -25,6 +25,6 @@ android {
 }
 
 dependencies {
-    api "com.github.bumptech.glide:glide:${GLIDE_VERSION}"
+    compileOnly "com.github.bumptech.glide:glide:${GLIDE_VERSION}"
     compileOnly "jp.co.cyberagent.android.gpuimage:gpuimage-library:${GPUIMAGE_VERSION}"
 }
