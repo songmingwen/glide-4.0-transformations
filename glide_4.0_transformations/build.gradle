@@ -4,12 +4,12 @@ group='com.github.songmingwen'
 
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.3"
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
 
     defaultConfig {
         minSdkVersion 15
-        targetSdkVersion 25
+        targetSdkVersion 26
         versionCode 1
         versionName "1.0"
 
@@ -25,6 +25,6 @@ android {
 }
 
 dependencies {
-    compile "com.github.bumptech.glide:glide:${GLIDE_VERSION}"
-    provided "jp.co.cyberagent.android.gpuimage:gpuimage-library:${GPUIMAGE_VERSION}"
+    api "com.github.bumptech.glide:glide:${GLIDE_VERSION}"
+    compileOnly "jp.co.cyberagent.android.gpuimage:gpuimage-library:${GPUIMAGE_VERSION}"
 }
