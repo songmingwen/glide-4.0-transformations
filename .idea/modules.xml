@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/glide-4.0-transformations.iml" filepath="$PROJECT_DIR$/glide-4.0-transformations.iml" />
-      <module fileurl="file://$PROJECT_DIR$/glide_4.0_transformations/glide_4.0_transformations.iml" filepath="$PROJECT_DIR$/glide_4.0_transformations/glide_4.0_transformations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/glide-4.0-transformations.iml" filepath="$PROJECT_DIR$/.idea/glide-4.0-transformations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/glide-4.0-transformations.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/glide-4.0-transformations.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/glide_4.0_transformations/glide-4.0-transformations.glide_4.0_transformations.iml" filepath="$PROJECT_DIR$/.idea/modules/glide_4.0_transformations/glide-4.0-transformations.glide_4.0_transformations.iml" />
     </modules>
   </component>
 </project>
