@@ -22,9 +22,9 @@ An Android transformation library providing a variety of image transformations f
 	}
   
   	dependencies {
-		compile 'com.github.songmingwen:glide-4.0-transformations:1.1'
+		api 'com.github.songmingwen:glide-4.0-transformations:1.1'
 		 // If you want to use the GPU Filters
-    	compile 'jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1'
+    	api 'jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1'
 	}
   
 # 
