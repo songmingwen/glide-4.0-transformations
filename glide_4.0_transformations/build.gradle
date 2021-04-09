@@ -1,11 +1,11 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
+//apply plugin: 'com.github.dcendents.android-maven'
 group='com.github.songmingwen'
 
 
 android {
-    compileSdkVersion 29
-    buildToolsVersion "29.0.2"
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
 
     defaultConfig {
         minSdkVersion 15
@@ -25,6 +25,6 @@ android {
 }
 
 dependencies {
-    compileOnly "com.github.bumptech.glide:glide:${GLIDE_VERSION}"
-    compileOnly "jp.co.cyberagent.android.gpuimage:gpuimage-library:${GPUIMAGE_VERSION}"
+    compileOnly "com.github.bumptech.glide:glide:4.0.0"
+    compileOnly "jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1"
 }

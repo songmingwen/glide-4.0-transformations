@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 29
-    buildToolsVersion "29.0.2"
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
     defaultConfig {
         applicationId "com.song.glidetransformations"
         minSdkVersion 15
@@ -28,7 +28,7 @@ dependencies {
     api 'com.android.support:design:28.0.0'
     api 'com.android.support.constraint:constraint-layout:1.0.2'
     api 'com.github.bumptech.glide:glide:4.0.0'
-    api "jp.co.cyberagent.android.gpuimage:gpuimage-library:${GPUIMAGE_VERSION}"
+    api "jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1"
     api project(':glide_4.0_transformations')
     testImplementation 'junit:junit:4.12'
 }
